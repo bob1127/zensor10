@@ -289,7 +289,7 @@ module.exports = {
             chunks: ['manifest','vendor','ProductCatagory']
         }),
         new HtmlWebpackPlugin({
-            filename: 'video_download.html',
+            filename: '../video_download.html',
             template: './src/video_download.html',
             chunks: ['manifest','vendor','ProductCatagory']
         }),
